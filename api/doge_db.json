@@ -1,0 +1,73 @@
+{
+  "doges": [
+    {
+      "id": 1,
+      "name": "Gizmo",
+      "profile_image": "https://i.imgur.com/MF6hysE.jpg",
+      "caption": "Brindle borker with a lot of love to give <3",
+      "likes": [ "#tongueouttuesday", "car rides", "mlems", "fetch" ]
+    },{
+      "id": 2,
+      "name": "Markov",
+      "profile_image": "https://i.imgur.com/pl2QfZs.jpg",
+      "caption": "Smol doge",
+      "likes": [ "snuggles", "staring inquisitively", "mlems", "borking" ]
+    },{
+      "id": 3,
+      "name": "Sheila",
+      "profile_image": "https://i.imgur.com/eW6LMB6.jpg",
+      "caption": "I can't type I have no thumbs",
+      "likes": [ "snuggles", "mlems", "borking", "squirrels" ]
+    },{
+      "id": 4,
+      "name": "Muffinface",
+      "profile_image": "https://i.imgur.com/dss0jwM.jpg",
+      "caption": "Aussie - but not bossy xoxoxo",
+      "likes": [ "fetch", "car rides", "mlems", "squirrels" ]
+    },{
+      "id": 5,
+      "name": "Baxter",
+      "profile_image": "https://i.imgur.com/OiEzLNb.png?1",
+      "caption": "When in doubt, tongue out!",
+      "likes": [ "#tongueouttuesday", "borking", "car rides", "snuggles" ]
+    },{
+      "id": 6,
+      "name": "Dagget",
+      "profile_image": "https://i.imgur.com/KkGqXym.jpg",
+      "caption": "Hullo m'laday *hat tip*",
+      "likes": [ "snuggles", "being right", "staring inquisitively" ]
+    },{
+      "id": 7,
+      "name": "Lulu",
+      "profile_image": "https://i.imgur.com/0DSs8F3.jpg",
+      "caption": "*~ One tough mama ~*",
+      "likes": [
+        "snuggles", "being right", "staring inquisitively", "mlems", "borking"
+      ]
+    },{
+      "id": 8,
+      "name": "Shmee",
+      "profile_image": "https://i.imgur.com/XfDv5KS.jpg",
+      "caption": "I only has eyes 4 you",
+      "likes": [
+        "snuggles", "mlems", "borking", "squirrels", "fetch"
+      ]
+    },{
+      "id": 9,
+      "name": "Clark",
+      "profile_image": "https://i.imgur.com/9fK6vcW.jpg",
+      "caption": "Sniffin' fer love in all the wrong places",
+      "likes": [
+        "snuggles", "staring inquisitively", "car rides"
+      ]
+    },{
+      "id": 10,
+      "name": "Booplet",
+      "profile_image": "https://i.imgur.com/enarCUc.jpg",
+      "caption": "BOOP",
+      "likes": [
+        "BOOP", "BOOPS", "BOOOOOOOP", "boop", "boops", "snoot boops"
+      ]
+    }
+  ]
+}
