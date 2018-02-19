@@ -1,11 +1,11 @@
 import axios from 'axios'
 
-const DOGES_ENDPOINT = 'http://localhost:3000/doges'
+const DOGES_ENDPOINT = 'http://localhost:3001/doges'
 const AJAX_CONFIG = {
   withCredentials: true
 }
 
-class DogeService {
+class DogeApi {
   state = []
   fetchAll = (callback) => {
     axios.get(DOGES_ENDPOINT, AJAX_CONFIG)
@@ -16,4 +16,4 @@ class DogeService {
   }
 }
 
-export default new DogeService()
+export default new DogeApi()

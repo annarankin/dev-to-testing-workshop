@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Panel
+    caption="I am a dog"
+    likes={
+        Array [
+            "cats",
+            "birds",
+            "frisbee",
+          ]
+    }
+    name="Bob the Dog"
+    profile_image="http://image.com/dog.jpg"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="profile-img"
+          style={
+                    Object {
+                              "backgroundImage": "url('http://image.com/dog.jpg')",
+                            }
+          }
+/>,
+        <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Bob the Dog
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <tr>
+                              <td>
+                                        "
+                                        I am a dog
+                                        "
+                              </td>
+                    </tr>
+                    <tr>
+                              <td>
+                                        Likes: 
+                                        cats, birds, frisbee
+                              </td>
+                    </tr>
+          </tbody>
+</table>,
+      ],
+      "className": "Panel",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "profile-img",
+          "style": Object {
+            "backgroundImage": "url('http://image.com/dog.jpg')",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <thead>
+              <tr>
+                            <th>
+                                          Bob the Dog
+                            </th>
+              </tr>
+</thead>,
+            <tbody>
+              <tr>
+                            <td>
+                                          "
+                                          I am a dog
+                                          "
+                            </td>
+              </tr>
+              <tr>
+                            <td>
+                                          Likes: 
+                                          cats, birds, frisbee
+                            </td>
+              </tr>
+</tbody>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <th>
+                                Bob the Dog
+                </th>
+</tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <th>
+                  Bob the Dog
+</th>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Bob the Dog",
+                },
+                "ref": null,
+                "rendered": "Bob the Dog",
+                "type": "th",
+              },
+              "type": "tr",
+            },
+            "type": "thead",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <tr>
+                  <td>
+                                    "
+                                    I am a dog
+                                    "
+                  </td>
+</tr>,
+                <tr>
+                  <td>
+                                    Likes: 
+                                    cats, birds, frisbee
+                  </td>
+</tr>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <td>
+                    "
+                    I am a dog
+                    "
+</td>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "\\"",
+                      "I am a dog",
+                      "\\"",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "\\"",
+                    "I am a dog",
+                    "\\"",
+                  ],
+                  "type": "td",
+                },
+                "type": "tr",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <td>
+                    Likes: 
+                    cats, birds, frisbee
+</td>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Likes: ",
+                      "cats, birds, frisbee",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Likes: ",
+                    "cats, birds, frisbee",
+                  ],
+                  "type": "td",
+                },
+                "type": "tr",
+              },
+            ],
+            "type": "tbody",
+          },
+        ],
+        "type": "table",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="profile-img"
+            style={
+                        Object {
+                                    "backgroundImage": "url('http://image.com/dog.jpg')",
+                                  }
+            }
+/>,
+          <table>
+            <thead>
+                        <tr>
+                                    <th>
+                                                Bob the Dog
+                                    </th>
+                        </tr>
+            </thead>
+            <tbody>
+                        <tr>
+                                    <td>
+                                                "
+                                                I am a dog
+                                                "
+                                    </td>
+                        </tr>
+                        <tr>
+                                    <td>
+                                                Likes: 
+                                                cats, birds, frisbee
+                                    </td>
+                        </tr>
+            </tbody>
+</table>,
+        ],
+        "className": "Panel",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "profile-img",
+            "style": Object {
+              "backgroundImage": "url('http://image.com/dog.jpg')",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <thead>
+                <tr>
+                                <th>
+                                                Bob the Dog
+                                </th>
+                </tr>
+</thead>,
+              <tbody>
+                <tr>
+                                <td>
+                                                "
+                                                I am a dog
+                                                "
+                                </td>
+                </tr>
+                <tr>
+                                <td>
+                                                Likes: 
+                                                cats, birds, frisbee
+                                </td>
+                </tr>
+</tbody>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <th>
+                                    Bob the Dog
+                  </th>
+</tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <th>
+                    Bob the Dog
+</th>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Bob the Dog",
+                  },
+                  "ref": null,
+                  "rendered": "Bob the Dog",
+                  "type": "th",
+                },
+                "type": "tr",
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <tr>
+                    <td>
+                                        "
+                                        I am a dog
+                                        "
+                    </td>
+</tr>,
+                  <tr>
+                    <td>
+                                        Likes: 
+                                        cats, birds, frisbee
+                    </td>
+</tr>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <td>
+                      "
+                      I am a dog
+                      "
+</td>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "\\"",
+                        "I am a dog",
+                        "\\"",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "\\"",
+                      "I am a dog",
+                      "\\"",
+                    ],
+                    "type": "td",
+                  },
+                  "type": "tr",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <td>
+                      Likes: 
+                      cats, birds, frisbee
+</td>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Likes: ",
+                        "cats, birds, frisbee",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Likes: ",
+                      "cats, birds, frisbee",
+                    ],
+                    "type": "td",
+                  },
+                  "type": "tr",
+                },
+              ],
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
